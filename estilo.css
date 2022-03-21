@@ -1,0 +1,10 @@
+/*MUDANDO PLANO DE FUNDO
+backgroud-color
+background-image: url('img.gif')
+background-repeat
+background-attachment
+background-position
+*/
+
+body {background-color: aquamarine;}
+body  {background-image: url(fundo.png);}
