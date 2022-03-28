@@ -4,7 +4,94 @@ background-image: url('img.gif')
 background-repeat
 background-attachment
 background-position
-*/
 
-body {background-color: aquamarine;}
-body  {background-image: url(fundo.png);}
+*/
+/* CORES PODEMN SER DEFINIDAS COMO:
+Hexadecimais: #FF0000
+RGB: RGB (255,0,0)
+Nomes: Pink*/
+
+/*TAMANHOS:
+*/
+/* --------- CORPO DA PÁGINA -----*/
+body {background-color:  black;}
+
+/*------ MENU ------*/
+.menu
+{   
+    background-color: #991818;
+    height: 20px;
+    padding: 10px; /* espaço entre borda e conteudo*/
+
+}
+
+.menu ul
+    {   
+        list-style: none /* retirar icones da lista */;
+        margin: 0; /* posicionar lista com a faixa do menu*/
+        padding: 0; /* espaçamento entre lista e margem da esquerda*/
+    }
+
+.menu ul li 
+    {
+        float: left; /* colocar itens na mesma linha*/
+    }
+
+.menu ul li a
+    {
+        padding: 6px;
+        font-family: arial narrow;
+        font-size: 15px;
+        color: white;
+        font-weight: bold; /* negrito */
+        text-transform: uppercase; /* todas as letras maiusculas*/
+        text-decoration: none; /* retirar sublinhado */
+    }
+
+.menu ul li a:hover
+    {
+        background: black; /* cor de fundo quando passa o cursor*/
+        color: #991818;
+    }
+
+/* ---------- H1 ----------*/
+h1 {
+    font-size: 50px;
+    background-color: ;
+    color: #991818;
+    text-align: center;
+    font-family: garamond;
+}
+
+/* ---------- TABELA -----------*/
+table
+    {
+        width: 80%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #d8d8d8;
+        border-color: #d8d8d8;
+        border-collapse: collapse;
+    }
+
+th 
+    {
+        font-weight: bolder;
+        font-size: 30px;
+        color: #991818;
+        height: 50px;
+    }
+
+td
+    {
+        font-weight: bold;
+        text-align: center;
+        font-size:20px;
+        width: 25%;
+    }
+
+a
+    {
+        color: #d8d8d8;
+    }

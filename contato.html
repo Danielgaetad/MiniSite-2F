@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"" href="estilo.css" media="all"/>
+    <script src="JavaScript"></script>
     <title>Contato</title>
 </head>
 <body>
-    <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="filmes.html">Filmes</a></li>
-        <li> <a href="contato.html">Contato</a></li>
-    </ul>
+    <div class="menu">
+        <ul type="square" id="nav">
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="filmes.html">FILMES</a></li>
+            <li> <a href="contato.html">CONTATO</a></li>
+        </ul>
+    </div>
+
+
     <form name="meuform">
         <h1>Entre em contato</h1>
         <label for="Nome">Nome</label>
-        <input type="text" id="Nomeid" placeholder="Fulano" required="required" name="nome"/>
+        <input type="text" id="Nomeid" placeholder="Ex: João Silva" required="required" name="nome"/>
 
         <br>
 
         <label for="fone">Fone</label>
-        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone"/>
+        <input type="tel" id="foneid" placeholder="(12) 34567-8901" name="fone"/>
 
         <br>
 
         <label for="email">Email</label>
-        <input type="email" id="emailid" placeholder="fulano@email.com" name="email"/>
+        <input type="email" id="emailid" placeholder="Joaosilva@email.com" name="email"/>
 
         <br>
 
-        <textarea placeholder="Deixe sua opinião"></textarea>
+        <textarea placeholder="Deixe aqui sua dúvida/opinião"></textarea>
         <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"/>
 
     </form>
