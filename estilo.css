@@ -11,8 +11,25 @@ Hexadecimais: #FF0000
 RGB: RGB (255,0,0)
 Nomes: Pink*/
 
-/*TAMANHOS:
+/*TAMANHOS
+  PX - pixels
+  % - porcentagem
+  SMALL / MEDIUM / LARGE
 */
+
+/*FORMATAÇÃO DE TEXTOS E FONTES
+   ITALIC -italico
+   BOLD - negrito
+   UNDERLINE - sublinhado
+   LINE-THROUGHT - tachado
+   UPPERCASE - maiusculas
+   LOWERCASE - minusculas
+   BLINK - piscando
+   10% - edentado
+   OVERLINE- sobrelinhado
+*/
+
+
 /* --------- CORPO DA PÁGINA -----*/
 body {background-color:  black;}
 
@@ -57,7 +74,6 @@ body {background-color:  black;}
 /* ---------- H1 ----------*/
 h1 {
     font-size: 50px;
-    background-color: ;
     color: #991818;
     text-align: center;
     font-family: garamond;
@@ -95,3 +111,34 @@ a
     {
         color: #d8d8d8;
     }
+
+.subtitulo{
+    background-color: #991818;
+    color: white;
+    font-weight: bold;
+}
+
+.filme{
+    color: antiquewhite;
+}
+
+/* ---------- CONTATO -----------*/
+#area{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+}
+ 
+fieldset{
+    background-color: #991818;
+    width: 300px;
+    height: 300px;
+}
