@@ -37,7 +37,7 @@ body {background-color:  black;}
 .menu
 {   
     background-color: #991818;
-    height: 20px;
+    height: 30px;
     padding: 10px; /* espaço entre borda e conteudo*/
 
 }
@@ -58,7 +58,7 @@ body {background-color:  black;}
     {
         padding: 6px;
         font-family: arial narrow;
-        font-size: 15px;
+        font-size: 25px;
         color: white;
         font-weight: bold; /* negrito */
         text-transform: uppercase; /* todas as letras maiusculas*/
@@ -67,7 +67,7 @@ body {background-color:  black;}
 
 .menu ul li a:hover
     {
-        background: black; /* cor de fundo quando passa o cursor*/
+        background: white; /* cor de fundo quando passa o cursor*/
         color: #991818;
     }
 
@@ -119,7 +119,7 @@ a
 }
 
 .filme{
-    color: antiquewhite;
+    color: gainsboro;
 }
 
 /* ---------- CONTATO -----------*/
@@ -141,4 +141,29 @@ fieldset{
     background-color: #991818;
     width: 300px;
     height: 300px;
+}
+
+/* --------- MAIS ATUALIZAÇÕES ----------*/
+
+.fundo{
+    background-image: url("img/fundo2.jpg"); 
+}
+
+.tt1{
+    font-size: 100px;
+    color: #991818;
+    font-family: garamond;
+    margin-right: 10%;
+    margin-left: 60%;
+}
+
+.tab2{
+    margin-right: 10%;
+    margin-left: 60%;
+    width: 30%;
+   height: 400px;
+}
+
+.tt2{
+    color: #991818;
 }
